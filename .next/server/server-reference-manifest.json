@@ -2,109 +2,205 @@
   "node": {
     "0696fa4e4ebd7bd424a5b168b9f67d41c57bf34a": {
       "workers": {
-        "app/(auth)/sign-in/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fdiem%2FDesktop%2FCoding%20Projects%2FBanking-App%2Flib%2Factions%2Fuser.actions.ts%22%2C%5B%22%24%24ACTION_2%22%2C%22signIn%22%2C%22logoutAccount%22%2C%22getLoggedInUser%22%2C%22%24%24ACTION_0%22%2C%22signUp%22%2C%22%24%24ACTION_1%22%5D%5D%5D&__client_imported__=true!",
-        "app/(root)/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fdiem%2FDesktop%2FCoding%20Projects%2FBanking-App%2Flib%2Factions%2Fuser.actions.ts%22%2C%5B%22%24%24ACTION_2%22%2C%22signIn%22%2C%22logoutAccount%22%2C%22getLoggedInUser%22%2C%22%24%24ACTION_0%22%2C%22signUp%22%2C%22%24%24ACTION_1%22%5D%5D%2C%5B%22%2FUsers%2Fdiem%2FDesktop%2FCoding%20Projects%2FBanking-App%2Flib%2Fappwrite.js%22%2C%5B%22createSessionClient%22%2C%22createAdminClient%22%5D%5D%5D&__client_imported__=!",
-        "app/(auth)/sign-up/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fdiem%2FDesktop%2FCoding%20Projects%2FBanking-App%2Flib%2Factions%2Fuser.actions.ts%22%2C%5B%22%24%24ACTION_2%22%2C%22signIn%22%2C%22logoutAccount%22%2C%22getLoggedInUser%22%2C%22%24%24ACTION_0%22%2C%22signUp%22%2C%22%24%24ACTION_1%22%5D%5D%2C%5B%22%2FUsers%2Fdiem%2FDesktop%2FCoding%20Projects%2FBanking-App%2Flib%2Fappwrite.js%22%2C%5B%22createSessionClient%22%2C%22createAdminClient%22%5D%5D%5D&__client_imported__=!"
+        "app/(auth)/sign-up/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fdiem%2FDesktop%2FCoding%20Projects%2FBanking-App%2Flib%2Factions%2Fuser.actions.ts%22%2C%5B%22%24%24ACTION_2%22%2C%22signIn%22%2C%22%24%24ACTION_3%22%2C%22logoutAccount%22%2C%22getLoggedInUser%22%2C%22createLinkToken%22%2C%22createBankAccount%22%2C%22%24%24ACTION_0%22%2C%22signUp%22%2C%22exchangePublicToken%22%2C%22%24%24ACTION_5%22%2C%22%24%24ACTION_1%22%2C%22%24%24ACTION_4%22%5D%5D%2C%5B%22%2FUsers%2Fdiem%2FDesktop%2FCoding%20Projects%2FBanking-App%2Flib%2Fappwrite.js%22%2C%5B%22createSessionClient%22%2C%22createAdminClient%22%5D%5D%2C%5B%22%2FUsers%2Fdiem%2FDesktop%2FCoding%20Projects%2FBanking-App%2Flib%2Factions%2Fdwolla.actions.ts%22%2C%5B%22addFundingSource%22%2C%22createFundingSource%22%2C%22%24%24ACTION_1%22%2C%22%24%24ACTION_3%22%2C%22%24%24ACTION_4%22%2C%22%24%24ACTION_2%22%2C%22createDwollaCustomer%22%2C%22%24%24ACTION_0%22%2C%22createOnDemandAuthorization%22%2C%22createTransfer%22%5D%5D%5D&__client_imported__=!"
       },
       "layer": {
-        "app/(auth)/sign-in/page": "action-browser",
-        "app/(root)/page": "rsc",
         "app/(auth)/sign-up/page": "rsc"
       }
     },
     "1e6bec7da9914f4d082ab9411b7657f5331dea52": {
       "workers": {
-        "app/(auth)/sign-in/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fdiem%2FDesktop%2FCoding%20Projects%2FBanking-App%2Flib%2Factions%2Fuser.actions.ts%22%2C%5B%22%24%24ACTION_2%22%2C%22signIn%22%2C%22logoutAccount%22%2C%22getLoggedInUser%22%2C%22%24%24ACTION_0%22%2C%22signUp%22%2C%22%24%24ACTION_1%22%5D%5D%5D&__client_imported__=true!",
-        "app/(root)/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fdiem%2FDesktop%2FCoding%20Projects%2FBanking-App%2Flib%2Factions%2Fuser.actions.ts%22%2C%5B%22%24%24ACTION_2%22%2C%22signIn%22%2C%22logoutAccount%22%2C%22getLoggedInUser%22%2C%22%24%24ACTION_0%22%2C%22signUp%22%2C%22%24%24ACTION_1%22%5D%5D%2C%5B%22%2FUsers%2Fdiem%2FDesktop%2FCoding%20Projects%2FBanking-App%2Flib%2Fappwrite.js%22%2C%5B%22createSessionClient%22%2C%22createAdminClient%22%5D%5D%5D&__client_imported__=!",
-        "app/(auth)/sign-up/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fdiem%2FDesktop%2FCoding%20Projects%2FBanking-App%2Flib%2Factions%2Fuser.actions.ts%22%2C%5B%22%24%24ACTION_2%22%2C%22signIn%22%2C%22logoutAccount%22%2C%22getLoggedInUser%22%2C%22%24%24ACTION_0%22%2C%22signUp%22%2C%22%24%24ACTION_1%22%5D%5D%2C%5B%22%2FUsers%2Fdiem%2FDesktop%2FCoding%20Projects%2FBanking-App%2Flib%2Fappwrite.js%22%2C%5B%22createSessionClient%22%2C%22createAdminClient%22%5D%5D%5D&__client_imported__=!"
+        "app/(auth)/sign-up/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fdiem%2FDesktop%2FCoding%20Projects%2FBanking-App%2Flib%2Factions%2Fuser.actions.ts%22%2C%5B%22%24%24ACTION_2%22%2C%22signIn%22%2C%22%24%24ACTION_3%22%2C%22logoutAccount%22%2C%22getLoggedInUser%22%2C%22createLinkToken%22%2C%22createBankAccount%22%2C%22%24%24ACTION_0%22%2C%22signUp%22%2C%22exchangePublicToken%22%2C%22%24%24ACTION_5%22%2C%22%24%24ACTION_1%22%2C%22%24%24ACTION_4%22%5D%5D%2C%5B%22%2FUsers%2Fdiem%2FDesktop%2FCoding%20Projects%2FBanking-App%2Flib%2Fappwrite.js%22%2C%5B%22createSessionClient%22%2C%22createAdminClient%22%5D%5D%2C%5B%22%2FUsers%2Fdiem%2FDesktop%2FCoding%20Projects%2FBanking-App%2Flib%2Factions%2Fdwolla.actions.ts%22%2C%5B%22addFundingSource%22%2C%22createFundingSource%22%2C%22%24%24ACTION_1%22%2C%22%24%24ACTION_3%22%2C%22%24%24ACTION_4%22%2C%22%24%24ACTION_2%22%2C%22createDwollaCustomer%22%2C%22%24%24ACTION_0%22%2C%22createOnDemandAuthorization%22%2C%22createTransfer%22%5D%5D%5D&__client_imported__=!"
       },
       "layer": {
-        "app/(auth)/sign-in/page": "action-browser",
-        "app/(root)/page": "rsc",
+        "app/(auth)/sign-up/page": "rsc"
+      }
+    },
+    "23fd90be1a4275c02d90b865bf0cad8bfae33c8f": {
+      "workers": {
+        "app/(auth)/sign-up/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fdiem%2FDesktop%2FCoding%20Projects%2FBanking-App%2Flib%2Factions%2Fuser.actions.ts%22%2C%5B%22%24%24ACTION_2%22%2C%22signIn%22%2C%22%24%24ACTION_3%22%2C%22logoutAccount%22%2C%22getLoggedInUser%22%2C%22createLinkToken%22%2C%22createBankAccount%22%2C%22%24%24ACTION_0%22%2C%22signUp%22%2C%22exchangePublicToken%22%2C%22%24%24ACTION_5%22%2C%22%24%24ACTION_1%22%2C%22%24%24ACTION_4%22%5D%5D%2C%5B%22%2FUsers%2Fdiem%2FDesktop%2FCoding%20Projects%2FBanking-App%2Flib%2Fappwrite.js%22%2C%5B%22createSessionClient%22%2C%22createAdminClient%22%5D%5D%2C%5B%22%2FUsers%2Fdiem%2FDesktop%2FCoding%20Projects%2FBanking-App%2Flib%2Factions%2Fdwolla.actions.ts%22%2C%5B%22addFundingSource%22%2C%22createFundingSource%22%2C%22%24%24ACTION_1%22%2C%22%24%24ACTION_3%22%2C%22%24%24ACTION_4%22%2C%22%24%24ACTION_2%22%2C%22createDwollaCustomer%22%2C%22%24%24ACTION_0%22%2C%22createOnDemandAuthorization%22%2C%22createTransfer%22%5D%5D%5D&__client_imported__=!"
+      },
+      "layer": {
         "app/(auth)/sign-up/page": "rsc"
       }
     },
     "2605c16613967570250194d4fcf10efdeafc0e1c": {
       "workers": {
-        "app/(auth)/sign-in/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fdiem%2FDesktop%2FCoding%20Projects%2FBanking-App%2Flib%2Factions%2Fuser.actions.ts%22%2C%5B%22%24%24ACTION_2%22%2C%22signIn%22%2C%22logoutAccount%22%2C%22getLoggedInUser%22%2C%22%24%24ACTION_0%22%2C%22signUp%22%2C%22%24%24ACTION_1%22%5D%5D%5D&__client_imported__=true!",
-        "app/(root)/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fdiem%2FDesktop%2FCoding%20Projects%2FBanking-App%2Flib%2Factions%2Fuser.actions.ts%22%2C%5B%22%24%24ACTION_2%22%2C%22signIn%22%2C%22logoutAccount%22%2C%22getLoggedInUser%22%2C%22%24%24ACTION_0%22%2C%22signUp%22%2C%22%24%24ACTION_1%22%5D%5D%2C%5B%22%2FUsers%2Fdiem%2FDesktop%2FCoding%20Projects%2FBanking-App%2Flib%2Fappwrite.js%22%2C%5B%22createSessionClient%22%2C%22createAdminClient%22%5D%5D%5D&__client_imported__=!",
-        "app/(auth)/sign-up/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fdiem%2FDesktop%2FCoding%20Projects%2FBanking-App%2Flib%2Factions%2Fuser.actions.ts%22%2C%5B%22%24%24ACTION_2%22%2C%22signIn%22%2C%22logoutAccount%22%2C%22getLoggedInUser%22%2C%22%24%24ACTION_0%22%2C%22signUp%22%2C%22%24%24ACTION_1%22%5D%5D%2C%5B%22%2FUsers%2Fdiem%2FDesktop%2FCoding%20Projects%2FBanking-App%2Flib%2Fappwrite.js%22%2C%5B%22createSessionClient%22%2C%22createAdminClient%22%5D%5D%5D&__client_imported__=!"
+        "app/(auth)/sign-up/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fdiem%2FDesktop%2FCoding%20Projects%2FBanking-App%2Flib%2Factions%2Fuser.actions.ts%22%2C%5B%22%24%24ACTION_2%22%2C%22signIn%22%2C%22%24%24ACTION_3%22%2C%22logoutAccount%22%2C%22getLoggedInUser%22%2C%22createLinkToken%22%2C%22createBankAccount%22%2C%22%24%24ACTION_0%22%2C%22signUp%22%2C%22exchangePublicToken%22%2C%22%24%24ACTION_5%22%2C%22%24%24ACTION_1%22%2C%22%24%24ACTION_4%22%5D%5D%2C%5B%22%2FUsers%2Fdiem%2FDesktop%2FCoding%20Projects%2FBanking-App%2Flib%2Fappwrite.js%22%2C%5B%22createSessionClient%22%2C%22createAdminClient%22%5D%5D%2C%5B%22%2FUsers%2Fdiem%2FDesktop%2FCoding%20Projects%2FBanking-App%2Flib%2Factions%2Fdwolla.actions.ts%22%2C%5B%22addFundingSource%22%2C%22createFundingSource%22%2C%22%24%24ACTION_1%22%2C%22%24%24ACTION_3%22%2C%22%24%24ACTION_4%22%2C%22%24%24ACTION_2%22%2C%22createDwollaCustomer%22%2C%22%24%24ACTION_0%22%2C%22createOnDemandAuthorization%22%2C%22createTransfer%22%5D%5D%5D&__client_imported__=!"
       },
       "layer": {
-        "app/(auth)/sign-in/page": "action-browser",
-        "app/(root)/page": "rsc",
         "app/(auth)/sign-up/page": "rsc"
       }
     },
     "40721afb0b34a99c161a6fe55fa17478adaf5ca8": {
       "workers": {
-        "app/(auth)/sign-in/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fdiem%2FDesktop%2FCoding%20Projects%2FBanking-App%2Flib%2Factions%2Fuser.actions.ts%22%2C%5B%22%24%24ACTION_2%22%2C%22signIn%22%2C%22logoutAccount%22%2C%22getLoggedInUser%22%2C%22%24%24ACTION_0%22%2C%22signUp%22%2C%22%24%24ACTION_1%22%5D%5D%5D&__client_imported__=true!",
-        "app/(root)/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fdiem%2FDesktop%2FCoding%20Projects%2FBanking-App%2Flib%2Factions%2Fuser.actions.ts%22%2C%5B%22%24%24ACTION_2%22%2C%22signIn%22%2C%22logoutAccount%22%2C%22getLoggedInUser%22%2C%22%24%24ACTION_0%22%2C%22signUp%22%2C%22%24%24ACTION_1%22%5D%5D%2C%5B%22%2FUsers%2Fdiem%2FDesktop%2FCoding%20Projects%2FBanking-App%2Flib%2Fappwrite.js%22%2C%5B%22createSessionClient%22%2C%22createAdminClient%22%5D%5D%5D&__client_imported__=!",
-        "app/(auth)/sign-up/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fdiem%2FDesktop%2FCoding%20Projects%2FBanking-App%2Flib%2Factions%2Fuser.actions.ts%22%2C%5B%22%24%24ACTION_2%22%2C%22signIn%22%2C%22logoutAccount%22%2C%22getLoggedInUser%22%2C%22%24%24ACTION_0%22%2C%22signUp%22%2C%22%24%24ACTION_1%22%5D%5D%2C%5B%22%2FUsers%2Fdiem%2FDesktop%2FCoding%20Projects%2FBanking-App%2Flib%2Fappwrite.js%22%2C%5B%22createSessionClient%22%2C%22createAdminClient%22%5D%5D%5D&__client_imported__=!"
+        "app/(auth)/sign-up/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fdiem%2FDesktop%2FCoding%20Projects%2FBanking-App%2Flib%2Factions%2Fuser.actions.ts%22%2C%5B%22%24%24ACTION_2%22%2C%22signIn%22%2C%22%24%24ACTION_3%22%2C%22logoutAccount%22%2C%22getLoggedInUser%22%2C%22createLinkToken%22%2C%22createBankAccount%22%2C%22%24%24ACTION_0%22%2C%22signUp%22%2C%22exchangePublicToken%22%2C%22%24%24ACTION_5%22%2C%22%24%24ACTION_1%22%2C%22%24%24ACTION_4%22%5D%5D%2C%5B%22%2FUsers%2Fdiem%2FDesktop%2FCoding%20Projects%2FBanking-App%2Flib%2Fappwrite.js%22%2C%5B%22createSessionClient%22%2C%22createAdminClient%22%5D%5D%2C%5B%22%2FUsers%2Fdiem%2FDesktop%2FCoding%20Projects%2FBanking-App%2Flib%2Factions%2Fdwolla.actions.ts%22%2C%5B%22addFundingSource%22%2C%22createFundingSource%22%2C%22%24%24ACTION_1%22%2C%22%24%24ACTION_3%22%2C%22%24%24ACTION_4%22%2C%22%24%24ACTION_2%22%2C%22createDwollaCustomer%22%2C%22%24%24ACTION_0%22%2C%22createOnDemandAuthorization%22%2C%22createTransfer%22%5D%5D%5D&__client_imported__=!"
       },
       "layer": {
-        "app/(auth)/sign-in/page": "action-browser",
-        "app/(root)/page": "rsc",
+        "app/(auth)/sign-up/page": "rsc"
+      }
+    },
+    "759f7b8ebddbda266fea0ad8c81aee554b371a4b": {
+      "workers": {
+        "app/(auth)/sign-up/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fdiem%2FDesktop%2FCoding%20Projects%2FBanking-App%2Flib%2Factions%2Fuser.actions.ts%22%2C%5B%22%24%24ACTION_2%22%2C%22signIn%22%2C%22%24%24ACTION_3%22%2C%22logoutAccount%22%2C%22getLoggedInUser%22%2C%22createLinkToken%22%2C%22createBankAccount%22%2C%22%24%24ACTION_0%22%2C%22signUp%22%2C%22exchangePublicToken%22%2C%22%24%24ACTION_5%22%2C%22%24%24ACTION_1%22%2C%22%24%24ACTION_4%22%5D%5D%2C%5B%22%2FUsers%2Fdiem%2FDesktop%2FCoding%20Projects%2FBanking-App%2Flib%2Fappwrite.js%22%2C%5B%22createSessionClient%22%2C%22createAdminClient%22%5D%5D%2C%5B%22%2FUsers%2Fdiem%2FDesktop%2FCoding%20Projects%2FBanking-App%2Flib%2Factions%2Fdwolla.actions.ts%22%2C%5B%22addFundingSource%22%2C%22createFundingSource%22%2C%22%24%24ACTION_1%22%2C%22%24%24ACTION_3%22%2C%22%24%24ACTION_4%22%2C%22%24%24ACTION_2%22%2C%22createDwollaCustomer%22%2C%22%24%24ACTION_0%22%2C%22createOnDemandAuthorization%22%2C%22createTransfer%22%5D%5D%5D&__client_imported__=!"
+      },
+      "layer": {
+        "app/(auth)/sign-up/page": "rsc"
+      }
+    },
+    "8feff1ae1390af46a77726fd6621c5791666f8af": {
+      "workers": {
+        "app/(auth)/sign-up/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fdiem%2FDesktop%2FCoding%20Projects%2FBanking-App%2Flib%2Factions%2Fuser.actions.ts%22%2C%5B%22%24%24ACTION_2%22%2C%22signIn%22%2C%22%24%24ACTION_3%22%2C%22logoutAccount%22%2C%22getLoggedInUser%22%2C%22createLinkToken%22%2C%22createBankAccount%22%2C%22%24%24ACTION_0%22%2C%22signUp%22%2C%22exchangePublicToken%22%2C%22%24%24ACTION_5%22%2C%22%24%24ACTION_1%22%2C%22%24%24ACTION_4%22%5D%5D%2C%5B%22%2FUsers%2Fdiem%2FDesktop%2FCoding%20Projects%2FBanking-App%2Flib%2Fappwrite.js%22%2C%5B%22createSessionClient%22%2C%22createAdminClient%22%5D%5D%2C%5B%22%2FUsers%2Fdiem%2FDesktop%2FCoding%20Projects%2FBanking-App%2Flib%2Factions%2Fdwolla.actions.ts%22%2C%5B%22addFundingSource%22%2C%22createFundingSource%22%2C%22%24%24ACTION_1%22%2C%22%24%24ACTION_3%22%2C%22%24%24ACTION_4%22%2C%22%24%24ACTION_2%22%2C%22createDwollaCustomer%22%2C%22%24%24ACTION_0%22%2C%22createOnDemandAuthorization%22%2C%22createTransfer%22%5D%5D%5D&__client_imported__=!"
+      },
+      "layer": {
         "app/(auth)/sign-up/page": "rsc"
       }
     },
     "93ac86976c42ab94991b78513aab7edad49a521e": {
       "workers": {
-        "app/(auth)/sign-in/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fdiem%2FDesktop%2FCoding%20Projects%2FBanking-App%2Flib%2Factions%2Fuser.actions.ts%22%2C%5B%22%24%24ACTION_2%22%2C%22signIn%22%2C%22logoutAccount%22%2C%22getLoggedInUser%22%2C%22%24%24ACTION_0%22%2C%22signUp%22%2C%22%24%24ACTION_1%22%5D%5D%5D&__client_imported__=true!",
-        "app/(root)/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fdiem%2FDesktop%2FCoding%20Projects%2FBanking-App%2Flib%2Factions%2Fuser.actions.ts%22%2C%5B%22%24%24ACTION_2%22%2C%22signIn%22%2C%22logoutAccount%22%2C%22getLoggedInUser%22%2C%22%24%24ACTION_0%22%2C%22signUp%22%2C%22%24%24ACTION_1%22%5D%5D%2C%5B%22%2FUsers%2Fdiem%2FDesktop%2FCoding%20Projects%2FBanking-App%2Flib%2Fappwrite.js%22%2C%5B%22createSessionClient%22%2C%22createAdminClient%22%5D%5D%5D&__client_imported__=!",
-        "app/(auth)/sign-up/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fdiem%2FDesktop%2FCoding%20Projects%2FBanking-App%2Flib%2Factions%2Fuser.actions.ts%22%2C%5B%22%24%24ACTION_2%22%2C%22signIn%22%2C%22logoutAccount%22%2C%22getLoggedInUser%22%2C%22%24%24ACTION_0%22%2C%22signUp%22%2C%22%24%24ACTION_1%22%5D%5D%2C%5B%22%2FUsers%2Fdiem%2FDesktop%2FCoding%20Projects%2FBanking-App%2Flib%2Fappwrite.js%22%2C%5B%22createSessionClient%22%2C%22createAdminClient%22%5D%5D%5D&__client_imported__=!"
+        "app/(auth)/sign-up/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fdiem%2FDesktop%2FCoding%20Projects%2FBanking-App%2Flib%2Factions%2Fuser.actions.ts%22%2C%5B%22%24%24ACTION_2%22%2C%22signIn%22%2C%22%24%24ACTION_3%22%2C%22logoutAccount%22%2C%22getLoggedInUser%22%2C%22createLinkToken%22%2C%22createBankAccount%22%2C%22%24%24ACTION_0%22%2C%22signUp%22%2C%22exchangePublicToken%22%2C%22%24%24ACTION_5%22%2C%22%24%24ACTION_1%22%2C%22%24%24ACTION_4%22%5D%5D%2C%5B%22%2FUsers%2Fdiem%2FDesktop%2FCoding%20Projects%2FBanking-App%2Flib%2Fappwrite.js%22%2C%5B%22createSessionClient%22%2C%22createAdminClient%22%5D%5D%2C%5B%22%2FUsers%2Fdiem%2FDesktop%2FCoding%20Projects%2FBanking-App%2Flib%2Factions%2Fdwolla.actions.ts%22%2C%5B%22addFundingSource%22%2C%22createFundingSource%22%2C%22%24%24ACTION_1%22%2C%22%24%24ACTION_3%22%2C%22%24%24ACTION_4%22%2C%22%24%24ACTION_2%22%2C%22createDwollaCustomer%22%2C%22%24%24ACTION_0%22%2C%22createOnDemandAuthorization%22%2C%22createTransfer%22%5D%5D%5D&__client_imported__=!"
       },
       "layer": {
-        "app/(auth)/sign-in/page": "action-browser",
-        "app/(root)/page": "rsc",
         "app/(auth)/sign-up/page": "rsc"
       }
     },
     "972601798a44beb0cb60e32aaeb3dc97a84e0962": {
       "workers": {
-        "app/(auth)/sign-in/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fdiem%2FDesktop%2FCoding%20Projects%2FBanking-App%2Flib%2Factions%2Fuser.actions.ts%22%2C%5B%22%24%24ACTION_2%22%2C%22signIn%22%2C%22logoutAccount%22%2C%22getLoggedInUser%22%2C%22%24%24ACTION_0%22%2C%22signUp%22%2C%22%24%24ACTION_1%22%5D%5D%5D&__client_imported__=true!",
-        "app/(root)/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fdiem%2FDesktop%2FCoding%20Projects%2FBanking-App%2Flib%2Factions%2Fuser.actions.ts%22%2C%5B%22%24%24ACTION_2%22%2C%22signIn%22%2C%22logoutAccount%22%2C%22getLoggedInUser%22%2C%22%24%24ACTION_0%22%2C%22signUp%22%2C%22%24%24ACTION_1%22%5D%5D%2C%5B%22%2FUsers%2Fdiem%2FDesktop%2FCoding%20Projects%2FBanking-App%2Flib%2Fappwrite.js%22%2C%5B%22createSessionClient%22%2C%22createAdminClient%22%5D%5D%5D&__client_imported__=!",
-        "app/(auth)/sign-up/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fdiem%2FDesktop%2FCoding%20Projects%2FBanking-App%2Flib%2Factions%2Fuser.actions.ts%22%2C%5B%22%24%24ACTION_2%22%2C%22signIn%22%2C%22logoutAccount%22%2C%22getLoggedInUser%22%2C%22%24%24ACTION_0%22%2C%22signUp%22%2C%22%24%24ACTION_1%22%5D%5D%2C%5B%22%2FUsers%2Fdiem%2FDesktop%2FCoding%20Projects%2FBanking-App%2Flib%2Fappwrite.js%22%2C%5B%22createSessionClient%22%2C%22createAdminClient%22%5D%5D%5D&__client_imported__=!"
+        "app/(auth)/sign-up/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fdiem%2FDesktop%2FCoding%20Projects%2FBanking-App%2Flib%2Factions%2Fuser.actions.ts%22%2C%5B%22%24%24ACTION_2%22%2C%22signIn%22%2C%22%24%24ACTION_3%22%2C%22logoutAccount%22%2C%22getLoggedInUser%22%2C%22createLinkToken%22%2C%22createBankAccount%22%2C%22%24%24ACTION_0%22%2C%22signUp%22%2C%22exchangePublicToken%22%2C%22%24%24ACTION_5%22%2C%22%24%24ACTION_1%22%2C%22%24%24ACTION_4%22%5D%5D%2C%5B%22%2FUsers%2Fdiem%2FDesktop%2FCoding%20Projects%2FBanking-App%2Flib%2Fappwrite.js%22%2C%5B%22createSessionClient%22%2C%22createAdminClient%22%5D%5D%2C%5B%22%2FUsers%2Fdiem%2FDesktop%2FCoding%20Projects%2FBanking-App%2Flib%2Factions%2Fdwolla.actions.ts%22%2C%5B%22addFundingSource%22%2C%22createFundingSource%22%2C%22%24%24ACTION_1%22%2C%22%24%24ACTION_3%22%2C%22%24%24ACTION_4%22%2C%22%24%24ACTION_2%22%2C%22createDwollaCustomer%22%2C%22%24%24ACTION_0%22%2C%22createOnDemandAuthorization%22%2C%22createTransfer%22%5D%5D%5D&__client_imported__=!"
       },
       "layer": {
-        "app/(auth)/sign-in/page": "action-browser",
-        "app/(root)/page": "rsc",
+        "app/(auth)/sign-up/page": "rsc"
+      }
+    },
+    "9ab77d7982416b197c8132ffed3d3308a25d97a7": {
+      "workers": {
+        "app/(auth)/sign-up/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fdiem%2FDesktop%2FCoding%20Projects%2FBanking-App%2Flib%2Factions%2Fuser.actions.ts%22%2C%5B%22%24%24ACTION_2%22%2C%22signIn%22%2C%22%24%24ACTION_3%22%2C%22logoutAccount%22%2C%22getLoggedInUser%22%2C%22createLinkToken%22%2C%22createBankAccount%22%2C%22%24%24ACTION_0%22%2C%22signUp%22%2C%22exchangePublicToken%22%2C%22%24%24ACTION_5%22%2C%22%24%24ACTION_1%22%2C%22%24%24ACTION_4%22%5D%5D%2C%5B%22%2FUsers%2Fdiem%2FDesktop%2FCoding%20Projects%2FBanking-App%2Flib%2Fappwrite.js%22%2C%5B%22createSessionClient%22%2C%22createAdminClient%22%5D%5D%2C%5B%22%2FUsers%2Fdiem%2FDesktop%2FCoding%20Projects%2FBanking-App%2Flib%2Factions%2Fdwolla.actions.ts%22%2C%5B%22addFundingSource%22%2C%22createFundingSource%22%2C%22%24%24ACTION_1%22%2C%22%24%24ACTION_3%22%2C%22%24%24ACTION_4%22%2C%22%24%24ACTION_2%22%2C%22createDwollaCustomer%22%2C%22%24%24ACTION_0%22%2C%22createOnDemandAuthorization%22%2C%22createTransfer%22%5D%5D%5D&__client_imported__=!"
+      },
+      "layer": {
+        "app/(auth)/sign-up/page": "rsc"
+      }
+    },
+    "a9aed1f7b3af49aa128215defd2ca7a329b2b9aa": {
+      "workers": {
+        "app/(auth)/sign-up/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fdiem%2FDesktop%2FCoding%20Projects%2FBanking-App%2Flib%2Factions%2Fuser.actions.ts%22%2C%5B%22%24%24ACTION_2%22%2C%22signIn%22%2C%22%24%24ACTION_3%22%2C%22logoutAccount%22%2C%22getLoggedInUser%22%2C%22createLinkToken%22%2C%22createBankAccount%22%2C%22%24%24ACTION_0%22%2C%22signUp%22%2C%22exchangePublicToken%22%2C%22%24%24ACTION_5%22%2C%22%24%24ACTION_1%22%2C%22%24%24ACTION_4%22%5D%5D%2C%5B%22%2FUsers%2Fdiem%2FDesktop%2FCoding%20Projects%2FBanking-App%2Flib%2Fappwrite.js%22%2C%5B%22createSessionClient%22%2C%22createAdminClient%22%5D%5D%2C%5B%22%2FUsers%2Fdiem%2FDesktop%2FCoding%20Projects%2FBanking-App%2Flib%2Factions%2Fdwolla.actions.ts%22%2C%5B%22addFundingSource%22%2C%22createFundingSource%22%2C%22%24%24ACTION_1%22%2C%22%24%24ACTION_3%22%2C%22%24%24ACTION_4%22%2C%22%24%24ACTION_2%22%2C%22createDwollaCustomer%22%2C%22%24%24ACTION_0%22%2C%22createOnDemandAuthorization%22%2C%22createTransfer%22%5D%5D%5D&__client_imported__=!"
+      },
+      "layer": {
         "app/(auth)/sign-up/page": "rsc"
       }
     },
     "c617f0cad69fd2407ab3b5b8fe32210c5ac3c608": {
       "workers": {
-        "app/(auth)/sign-in/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fdiem%2FDesktop%2FCoding%20Projects%2FBanking-App%2Flib%2Factions%2Fuser.actions.ts%22%2C%5B%22%24%24ACTION_2%22%2C%22signIn%22%2C%22logoutAccount%22%2C%22getLoggedInUser%22%2C%22%24%24ACTION_0%22%2C%22signUp%22%2C%22%24%24ACTION_1%22%5D%5D%5D&__client_imported__=true!",
-        "app/(root)/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fdiem%2FDesktop%2FCoding%20Projects%2FBanking-App%2Flib%2Factions%2Fuser.actions.ts%22%2C%5B%22%24%24ACTION_2%22%2C%22signIn%22%2C%22logoutAccount%22%2C%22getLoggedInUser%22%2C%22%24%24ACTION_0%22%2C%22signUp%22%2C%22%24%24ACTION_1%22%5D%5D%2C%5B%22%2FUsers%2Fdiem%2FDesktop%2FCoding%20Projects%2FBanking-App%2Flib%2Fappwrite.js%22%2C%5B%22createSessionClient%22%2C%22createAdminClient%22%5D%5D%5D&__client_imported__=!",
-        "app/(auth)/sign-up/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fdiem%2FDesktop%2FCoding%20Projects%2FBanking-App%2Flib%2Factions%2Fuser.actions.ts%22%2C%5B%22%24%24ACTION_2%22%2C%22signIn%22%2C%22logoutAccount%22%2C%22getLoggedInUser%22%2C%22%24%24ACTION_0%22%2C%22signUp%22%2C%22%24%24ACTION_1%22%5D%5D%2C%5B%22%2FUsers%2Fdiem%2FDesktop%2FCoding%20Projects%2FBanking-App%2Flib%2Fappwrite.js%22%2C%5B%22createSessionClient%22%2C%22createAdminClient%22%5D%5D%5D&__client_imported__=!"
+        "app/(auth)/sign-up/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fdiem%2FDesktop%2FCoding%20Projects%2FBanking-App%2Flib%2Factions%2Fuser.actions.ts%22%2C%5B%22%24%24ACTION_2%22%2C%22signIn%22%2C%22%24%24ACTION_3%22%2C%22logoutAccount%22%2C%22getLoggedInUser%22%2C%22createLinkToken%22%2C%22createBankAccount%22%2C%22%24%24ACTION_0%22%2C%22signUp%22%2C%22exchangePublicToken%22%2C%22%24%24ACTION_5%22%2C%22%24%24ACTION_1%22%2C%22%24%24ACTION_4%22%5D%5D%2C%5B%22%2FUsers%2Fdiem%2FDesktop%2FCoding%20Projects%2FBanking-App%2Flib%2Fappwrite.js%22%2C%5B%22createSessionClient%22%2C%22createAdminClient%22%5D%5D%2C%5B%22%2FUsers%2Fdiem%2FDesktop%2FCoding%20Projects%2FBanking-App%2Flib%2Factions%2Fdwolla.actions.ts%22%2C%5B%22addFundingSource%22%2C%22createFundingSource%22%2C%22%24%24ACTION_1%22%2C%22%24%24ACTION_3%22%2C%22%24%24ACTION_4%22%2C%22%24%24ACTION_2%22%2C%22createDwollaCustomer%22%2C%22%24%24ACTION_0%22%2C%22createOnDemandAuthorization%22%2C%22createTransfer%22%5D%5D%5D&__client_imported__=!"
       },
       "layer": {
-        "app/(auth)/sign-in/page": "action-browser",
-        "app/(root)/page": "rsc",
+        "app/(auth)/sign-up/page": "rsc"
+      }
+    },
+    "dfbc200ab449ec38a027d6be73345b8e8caf2d1d": {
+      "workers": {
+        "app/(auth)/sign-up/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fdiem%2FDesktop%2FCoding%20Projects%2FBanking-App%2Flib%2Factions%2Fuser.actions.ts%22%2C%5B%22%24%24ACTION_2%22%2C%22signIn%22%2C%22%24%24ACTION_3%22%2C%22logoutAccount%22%2C%22getLoggedInUser%22%2C%22createLinkToken%22%2C%22createBankAccount%22%2C%22%24%24ACTION_0%22%2C%22signUp%22%2C%22exchangePublicToken%22%2C%22%24%24ACTION_5%22%2C%22%24%24ACTION_1%22%2C%22%24%24ACTION_4%22%5D%5D%2C%5B%22%2FUsers%2Fdiem%2FDesktop%2FCoding%20Projects%2FBanking-App%2Flib%2Fappwrite.js%22%2C%5B%22createSessionClient%22%2C%22createAdminClient%22%5D%5D%2C%5B%22%2FUsers%2Fdiem%2FDesktop%2FCoding%20Projects%2FBanking-App%2Flib%2Factions%2Fdwolla.actions.ts%22%2C%5B%22addFundingSource%22%2C%22createFundingSource%22%2C%22%24%24ACTION_1%22%2C%22%24%24ACTION_3%22%2C%22%24%24ACTION_4%22%2C%22%24%24ACTION_2%22%2C%22createDwollaCustomer%22%2C%22%24%24ACTION_0%22%2C%22createOnDemandAuthorization%22%2C%22createTransfer%22%5D%5D%5D&__client_imported__=!"
+      },
+      "layer": {
         "app/(auth)/sign-up/page": "rsc"
       }
     },
     "196da21600d75fc8ce032be29f60df4d4ed24016": {
       "workers": {
-        "app/(root)/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fdiem%2FDesktop%2FCoding%20Projects%2FBanking-App%2Flib%2Factions%2Fuser.actions.ts%22%2C%5B%22%24%24ACTION_2%22%2C%22signIn%22%2C%22logoutAccount%22%2C%22getLoggedInUser%22%2C%22%24%24ACTION_0%22%2C%22signUp%22%2C%22%24%24ACTION_1%22%5D%5D%2C%5B%22%2FUsers%2Fdiem%2FDesktop%2FCoding%20Projects%2FBanking-App%2Flib%2Fappwrite.js%22%2C%5B%22createSessionClient%22%2C%22createAdminClient%22%5D%5D%5D&__client_imported__=!",
-        "app/(auth)/sign-up/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fdiem%2FDesktop%2FCoding%20Projects%2FBanking-App%2Flib%2Factions%2Fuser.actions.ts%22%2C%5B%22%24%24ACTION_2%22%2C%22signIn%22%2C%22logoutAccount%22%2C%22getLoggedInUser%22%2C%22%24%24ACTION_0%22%2C%22signUp%22%2C%22%24%24ACTION_1%22%5D%5D%2C%5B%22%2FUsers%2Fdiem%2FDesktop%2FCoding%20Projects%2FBanking-App%2Flib%2Fappwrite.js%22%2C%5B%22createSessionClient%22%2C%22createAdminClient%22%5D%5D%5D&__client_imported__=!"
+        "app/(auth)/sign-up/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fdiem%2FDesktop%2FCoding%20Projects%2FBanking-App%2Flib%2Factions%2Fuser.actions.ts%22%2C%5B%22%24%24ACTION_2%22%2C%22signIn%22%2C%22%24%24ACTION_3%22%2C%22logoutAccount%22%2C%22getLoggedInUser%22%2C%22createLinkToken%22%2C%22createBankAccount%22%2C%22%24%24ACTION_0%22%2C%22signUp%22%2C%22exchangePublicToken%22%2C%22%24%24ACTION_5%22%2C%22%24%24ACTION_1%22%2C%22%24%24ACTION_4%22%5D%5D%2C%5B%22%2FUsers%2Fdiem%2FDesktop%2FCoding%20Projects%2FBanking-App%2Flib%2Fappwrite.js%22%2C%5B%22createSessionClient%22%2C%22createAdminClient%22%5D%5D%2C%5B%22%2FUsers%2Fdiem%2FDesktop%2FCoding%20Projects%2FBanking-App%2Flib%2Factions%2Fdwolla.actions.ts%22%2C%5B%22addFundingSource%22%2C%22createFundingSource%22%2C%22%24%24ACTION_1%22%2C%22%24%24ACTION_3%22%2C%22%24%24ACTION_4%22%2C%22%24%24ACTION_2%22%2C%22createDwollaCustomer%22%2C%22%24%24ACTION_0%22%2C%22createOnDemandAuthorization%22%2C%22createTransfer%22%5D%5D%5D&__client_imported__=!"
       },
       "layer": {
-        "app/(root)/page": "rsc",
         "app/(auth)/sign-up/page": "rsc"
       }
     },
     "864075bca129bbbb56378e4826bed4b48205af98": {
       "workers": {
-        "app/(root)/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fdiem%2FDesktop%2FCoding%20Projects%2FBanking-App%2Flib%2Factions%2Fuser.actions.ts%22%2C%5B%22%24%24ACTION_2%22%2C%22signIn%22%2C%22logoutAccount%22%2C%22getLoggedInUser%22%2C%22%24%24ACTION_0%22%2C%22signUp%22%2C%22%24%24ACTION_1%22%5D%5D%2C%5B%22%2FUsers%2Fdiem%2FDesktop%2FCoding%20Projects%2FBanking-App%2Flib%2Fappwrite.js%22%2C%5B%22createSessionClient%22%2C%22createAdminClient%22%5D%5D%5D&__client_imported__=!",
-        "app/(auth)/sign-up/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fdiem%2FDesktop%2FCoding%20Projects%2FBanking-App%2Flib%2Factions%2Fuser.actions.ts%22%2C%5B%22%24%24ACTION_2%22%2C%22signIn%22%2C%22logoutAccount%22%2C%22getLoggedInUser%22%2C%22%24%24ACTION_0%22%2C%22signUp%22%2C%22%24%24ACTION_1%22%5D%5D%2C%5B%22%2FUsers%2Fdiem%2FDesktop%2FCoding%20Projects%2FBanking-App%2Flib%2Fappwrite.js%22%2C%5B%22createSessionClient%22%2C%22createAdminClient%22%5D%5D%5D&__client_imported__=!"
+        "app/(auth)/sign-up/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fdiem%2FDesktop%2FCoding%20Projects%2FBanking-App%2Flib%2Factions%2Fuser.actions.ts%22%2C%5B%22%24%24ACTION_2%22%2C%22signIn%22%2C%22%24%24ACTION_3%22%2C%22logoutAccount%22%2C%22getLoggedInUser%22%2C%22createLinkToken%22%2C%22createBankAccount%22%2C%22%24%24ACTION_0%22%2C%22signUp%22%2C%22exchangePublicToken%22%2C%22%24%24ACTION_5%22%2C%22%24%24ACTION_1%22%2C%22%24%24ACTION_4%22%5D%5D%2C%5B%22%2FUsers%2Fdiem%2FDesktop%2FCoding%20Projects%2FBanking-App%2Flib%2Fappwrite.js%22%2C%5B%22createSessionClient%22%2C%22createAdminClient%22%5D%5D%2C%5B%22%2FUsers%2Fdiem%2FDesktop%2FCoding%20Projects%2FBanking-App%2Flib%2Factions%2Fdwolla.actions.ts%22%2C%5B%22addFundingSource%22%2C%22createFundingSource%22%2C%22%24%24ACTION_1%22%2C%22%24%24ACTION_3%22%2C%22%24%24ACTION_4%22%2C%22%24%24ACTION_2%22%2C%22createDwollaCustomer%22%2C%22%24%24ACTION_0%22%2C%22createOnDemandAuthorization%22%2C%22createTransfer%22%5D%5D%5D&__client_imported__=!"
       },
       "layer": {
-        "app/(root)/page": "rsc",
+        "app/(auth)/sign-up/page": "rsc"
+      }
+    },
+    "39a5f00d756a4b348a6b156c153db8f2c787a24c": {
+      "workers": {
+        "app/(auth)/sign-up/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fdiem%2FDesktop%2FCoding%20Projects%2FBanking-App%2Flib%2Factions%2Fuser.actions.ts%22%2C%5B%22%24%24ACTION_2%22%2C%22signIn%22%2C%22%24%24ACTION_3%22%2C%22logoutAccount%22%2C%22getLoggedInUser%22%2C%22createLinkToken%22%2C%22createBankAccount%22%2C%22%24%24ACTION_0%22%2C%22signUp%22%2C%22exchangePublicToken%22%2C%22%24%24ACTION_5%22%2C%22%24%24ACTION_1%22%2C%22%24%24ACTION_4%22%5D%5D%2C%5B%22%2FUsers%2Fdiem%2FDesktop%2FCoding%20Projects%2FBanking-App%2Flib%2Fappwrite.js%22%2C%5B%22createSessionClient%22%2C%22createAdminClient%22%5D%5D%2C%5B%22%2FUsers%2Fdiem%2FDesktop%2FCoding%20Projects%2FBanking-App%2Flib%2Factions%2Fdwolla.actions.ts%22%2C%5B%22addFundingSource%22%2C%22createFundingSource%22%2C%22%24%24ACTION_1%22%2C%22%24%24ACTION_3%22%2C%22%24%24ACTION_4%22%2C%22%24%24ACTION_2%22%2C%22createDwollaCustomer%22%2C%22%24%24ACTION_0%22%2C%22createOnDemandAuthorization%22%2C%22createTransfer%22%5D%5D%5D&__client_imported__=!"
+      },
+      "layer": {
+        "app/(auth)/sign-up/page": "rsc"
+      }
+    },
+    "42409cde83adeb65f8707d1c13c1d0aab2f9a148": {
+      "workers": {
+        "app/(auth)/sign-up/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fdiem%2FDesktop%2FCoding%20Projects%2FBanking-App%2Flib%2Factions%2Fuser.actions.ts%22%2C%5B%22%24%24ACTION_2%22%2C%22signIn%22%2C%22%24%24ACTION_3%22%2C%22logoutAccount%22%2C%22getLoggedInUser%22%2C%22createLinkToken%22%2C%22createBankAccount%22%2C%22%24%24ACTION_0%22%2C%22signUp%22%2C%22exchangePublicToken%22%2C%22%24%24ACTION_5%22%2C%22%24%24ACTION_1%22%2C%22%24%24ACTION_4%22%5D%5D%2C%5B%22%2FUsers%2Fdiem%2FDesktop%2FCoding%20Projects%2FBanking-App%2Flib%2Fappwrite.js%22%2C%5B%22createSessionClient%22%2C%22createAdminClient%22%5D%5D%2C%5B%22%2FUsers%2Fdiem%2FDesktop%2FCoding%20Projects%2FBanking-App%2Flib%2Factions%2Fdwolla.actions.ts%22%2C%5B%22addFundingSource%22%2C%22createFundingSource%22%2C%22%24%24ACTION_1%22%2C%22%24%24ACTION_3%22%2C%22%24%24ACTION_4%22%2C%22%24%24ACTION_2%22%2C%22createDwollaCustomer%22%2C%22%24%24ACTION_0%22%2C%22createOnDemandAuthorization%22%2C%22createTransfer%22%5D%5D%5D&__client_imported__=!"
+      },
+      "layer": {
+        "app/(auth)/sign-up/page": "rsc"
+      }
+    },
+    "a0bcf80874dbffb9164e4850ea71c3a331f65c3e": {
+      "workers": {
+        "app/(auth)/sign-up/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fdiem%2FDesktop%2FCoding%20Projects%2FBanking-App%2Flib%2Factions%2Fuser.actions.ts%22%2C%5B%22%24%24ACTION_2%22%2C%22signIn%22%2C%22%24%24ACTION_3%22%2C%22logoutAccount%22%2C%22getLoggedInUser%22%2C%22createLinkToken%22%2C%22createBankAccount%22%2C%22%24%24ACTION_0%22%2C%22signUp%22%2C%22exchangePublicToken%22%2C%22%24%24ACTION_5%22%2C%22%24%24ACTION_1%22%2C%22%24%24ACTION_4%22%5D%5D%2C%5B%22%2FUsers%2Fdiem%2FDesktop%2FCoding%20Projects%2FBanking-App%2Flib%2Fappwrite.js%22%2C%5B%22createSessionClient%22%2C%22createAdminClient%22%5D%5D%2C%5B%22%2FUsers%2Fdiem%2FDesktop%2FCoding%20Projects%2FBanking-App%2Flib%2Factions%2Fdwolla.actions.ts%22%2C%5B%22addFundingSource%22%2C%22createFundingSource%22%2C%22%24%24ACTION_1%22%2C%22%24%24ACTION_3%22%2C%22%24%24ACTION_4%22%2C%22%24%24ACTION_2%22%2C%22createDwollaCustomer%22%2C%22%24%24ACTION_0%22%2C%22createOnDemandAuthorization%22%2C%22createTransfer%22%5D%5D%5D&__client_imported__=!"
+      },
+      "layer": {
+        "app/(auth)/sign-up/page": "rsc"
+      }
+    },
+    "b165ef6002d4690695cacdc9eb1730b1e89f5de5": {
+      "workers": {
+        "app/(auth)/sign-up/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fdiem%2FDesktop%2FCoding%20Projects%2FBanking-App%2Flib%2Factions%2Fuser.actions.ts%22%2C%5B%22%24%24ACTION_2%22%2C%22signIn%22%2C%22%24%24ACTION_3%22%2C%22logoutAccount%22%2C%22getLoggedInUser%22%2C%22createLinkToken%22%2C%22createBankAccount%22%2C%22%24%24ACTION_0%22%2C%22signUp%22%2C%22exchangePublicToken%22%2C%22%24%24ACTION_5%22%2C%22%24%24ACTION_1%22%2C%22%24%24ACTION_4%22%5D%5D%2C%5B%22%2FUsers%2Fdiem%2FDesktop%2FCoding%20Projects%2FBanking-App%2Flib%2Fappwrite.js%22%2C%5B%22createSessionClient%22%2C%22createAdminClient%22%5D%5D%2C%5B%22%2FUsers%2Fdiem%2FDesktop%2FCoding%20Projects%2FBanking-App%2Flib%2Factions%2Fdwolla.actions.ts%22%2C%5B%22addFundingSource%22%2C%22createFundingSource%22%2C%22%24%24ACTION_1%22%2C%22%24%24ACTION_3%22%2C%22%24%24ACTION_4%22%2C%22%24%24ACTION_2%22%2C%22createDwollaCustomer%22%2C%22%24%24ACTION_0%22%2C%22createOnDemandAuthorization%22%2C%22createTransfer%22%5D%5D%5D&__client_imported__=!"
+      },
+      "layer": {
+        "app/(auth)/sign-up/page": "rsc"
+      }
+    },
+    "b87d750312dea41ef0a9ef0d142840c6bddd3e11": {
+      "workers": {
+        "app/(auth)/sign-up/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fdiem%2FDesktop%2FCoding%20Projects%2FBanking-App%2Flib%2Factions%2Fuser.actions.ts%22%2C%5B%22%24%24ACTION_2%22%2C%22signIn%22%2C%22%24%24ACTION_3%22%2C%22logoutAccount%22%2C%22getLoggedInUser%22%2C%22createLinkToken%22%2C%22createBankAccount%22%2C%22%24%24ACTION_0%22%2C%22signUp%22%2C%22exchangePublicToken%22%2C%22%24%24ACTION_5%22%2C%22%24%24ACTION_1%22%2C%22%24%24ACTION_4%22%5D%5D%2C%5B%22%2FUsers%2Fdiem%2FDesktop%2FCoding%20Projects%2FBanking-App%2Flib%2Fappwrite.js%22%2C%5B%22createSessionClient%22%2C%22createAdminClient%22%5D%5D%2C%5B%22%2FUsers%2Fdiem%2FDesktop%2FCoding%20Projects%2FBanking-App%2Flib%2Factions%2Fdwolla.actions.ts%22%2C%5B%22addFundingSource%22%2C%22createFundingSource%22%2C%22%24%24ACTION_1%22%2C%22%24%24ACTION_3%22%2C%22%24%24ACTION_4%22%2C%22%24%24ACTION_2%22%2C%22createDwollaCustomer%22%2C%22%24%24ACTION_0%22%2C%22createOnDemandAuthorization%22%2C%22createTransfer%22%5D%5D%5D&__client_imported__=!"
+      },
+      "layer": {
+        "app/(auth)/sign-up/page": "rsc"
+      }
+    },
+    "c96408cc32c69d9146131739d0cee35e6c875d80": {
+      "workers": {
+        "app/(auth)/sign-up/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fdiem%2FDesktop%2FCoding%20Projects%2FBanking-App%2Flib%2Factions%2Fuser.actions.ts%22%2C%5B%22%24%24ACTION_2%22%2C%22signIn%22%2C%22%24%24ACTION_3%22%2C%22logoutAccount%22%2C%22getLoggedInUser%22%2C%22createLinkToken%22%2C%22createBankAccount%22%2C%22%24%24ACTION_0%22%2C%22signUp%22%2C%22exchangePublicToken%22%2C%22%24%24ACTION_5%22%2C%22%24%24ACTION_1%22%2C%22%24%24ACTION_4%22%5D%5D%2C%5B%22%2FUsers%2Fdiem%2FDesktop%2FCoding%20Projects%2FBanking-App%2Flib%2Fappwrite.js%22%2C%5B%22createSessionClient%22%2C%22createAdminClient%22%5D%5D%2C%5B%22%2FUsers%2Fdiem%2FDesktop%2FCoding%20Projects%2FBanking-App%2Flib%2Factions%2Fdwolla.actions.ts%22%2C%5B%22addFundingSource%22%2C%22createFundingSource%22%2C%22%24%24ACTION_1%22%2C%22%24%24ACTION_3%22%2C%22%24%24ACTION_4%22%2C%22%24%24ACTION_2%22%2C%22createDwollaCustomer%22%2C%22%24%24ACTION_0%22%2C%22createOnDemandAuthorization%22%2C%22createTransfer%22%5D%5D%5D&__client_imported__=!"
+      },
+      "layer": {
+        "app/(auth)/sign-up/page": "rsc"
+      }
+    },
+    "d8228917fdd0fa01fd496ac466ee96f0eeda4e51": {
+      "workers": {
+        "app/(auth)/sign-up/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fdiem%2FDesktop%2FCoding%20Projects%2FBanking-App%2Flib%2Factions%2Fuser.actions.ts%22%2C%5B%22%24%24ACTION_2%22%2C%22signIn%22%2C%22%24%24ACTION_3%22%2C%22logoutAccount%22%2C%22getLoggedInUser%22%2C%22createLinkToken%22%2C%22createBankAccount%22%2C%22%24%24ACTION_0%22%2C%22signUp%22%2C%22exchangePublicToken%22%2C%22%24%24ACTION_5%22%2C%22%24%24ACTION_1%22%2C%22%24%24ACTION_4%22%5D%5D%2C%5B%22%2FUsers%2Fdiem%2FDesktop%2FCoding%20Projects%2FBanking-App%2Flib%2Fappwrite.js%22%2C%5B%22createSessionClient%22%2C%22createAdminClient%22%5D%5D%2C%5B%22%2FUsers%2Fdiem%2FDesktop%2FCoding%20Projects%2FBanking-App%2Flib%2Factions%2Fdwolla.actions.ts%22%2C%5B%22addFundingSource%22%2C%22createFundingSource%22%2C%22%24%24ACTION_1%22%2C%22%24%24ACTION_3%22%2C%22%24%24ACTION_4%22%2C%22%24%24ACTION_2%22%2C%22createDwollaCustomer%22%2C%22%24%24ACTION_0%22%2C%22createOnDemandAuthorization%22%2C%22createTransfer%22%5D%5D%5D&__client_imported__=!"
+      },
+      "layer": {
+        "app/(auth)/sign-up/page": "rsc"
+      }
+    },
+    "e76920821098aae3ab0bf2d8895a2b38e6ab3c22": {
+      "workers": {
+        "app/(auth)/sign-up/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fdiem%2FDesktop%2FCoding%20Projects%2FBanking-App%2Flib%2Factions%2Fuser.actions.ts%22%2C%5B%22%24%24ACTION_2%22%2C%22signIn%22%2C%22%24%24ACTION_3%22%2C%22logoutAccount%22%2C%22getLoggedInUser%22%2C%22createLinkToken%22%2C%22createBankAccount%22%2C%22%24%24ACTION_0%22%2C%22signUp%22%2C%22exchangePublicToken%22%2C%22%24%24ACTION_5%22%2C%22%24%24ACTION_1%22%2C%22%24%24ACTION_4%22%5D%5D%2C%5B%22%2FUsers%2Fdiem%2FDesktop%2FCoding%20Projects%2FBanking-App%2Flib%2Fappwrite.js%22%2C%5B%22createSessionClient%22%2C%22createAdminClient%22%5D%5D%2C%5B%22%2FUsers%2Fdiem%2FDesktop%2FCoding%20Projects%2FBanking-App%2Flib%2Factions%2Fdwolla.actions.ts%22%2C%5B%22addFundingSource%22%2C%22createFundingSource%22%2C%22%24%24ACTION_1%22%2C%22%24%24ACTION_3%22%2C%22%24%24ACTION_4%22%2C%22%24%24ACTION_2%22%2C%22createDwollaCustomer%22%2C%22%24%24ACTION_0%22%2C%22createOnDemandAuthorization%22%2C%22createTransfer%22%5D%5D%5D&__client_imported__=!"
+      },
+      "layer": {
+        "app/(auth)/sign-up/page": "rsc"
+      }
+    },
+    "ece24fb97a230994db17aa8fc060b6fe92c849c8": {
+      "workers": {
+        "app/(auth)/sign-up/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fdiem%2FDesktop%2FCoding%20Projects%2FBanking-App%2Flib%2Factions%2Fuser.actions.ts%22%2C%5B%22%24%24ACTION_2%22%2C%22signIn%22%2C%22%24%24ACTION_3%22%2C%22logoutAccount%22%2C%22getLoggedInUser%22%2C%22createLinkToken%22%2C%22createBankAccount%22%2C%22%24%24ACTION_0%22%2C%22signUp%22%2C%22exchangePublicToken%22%2C%22%24%24ACTION_5%22%2C%22%24%24ACTION_1%22%2C%22%24%24ACTION_4%22%5D%5D%2C%5B%22%2FUsers%2Fdiem%2FDesktop%2FCoding%20Projects%2FBanking-App%2Flib%2Fappwrite.js%22%2C%5B%22createSessionClient%22%2C%22createAdminClient%22%5D%5D%2C%5B%22%2FUsers%2Fdiem%2FDesktop%2FCoding%20Projects%2FBanking-App%2Flib%2Factions%2Fdwolla.actions.ts%22%2C%5B%22addFundingSource%22%2C%22createFundingSource%22%2C%22%24%24ACTION_1%22%2C%22%24%24ACTION_3%22%2C%22%24%24ACTION_4%22%2C%22%24%24ACTION_2%22%2C%22createDwollaCustomer%22%2C%22%24%24ACTION_0%22%2C%22createOnDemandAuthorization%22%2C%22createTransfer%22%5D%5D%5D&__client_imported__=!"
+      },
+      "layer": {
+        "app/(auth)/sign-up/page": "rsc"
+      }
+    },
+    "f80d61e51fd60f2348dfb575aa517a50b14eb46d": {
+      "workers": {
+        "app/(auth)/sign-up/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fdiem%2FDesktop%2FCoding%20Projects%2FBanking-App%2Flib%2Factions%2Fuser.actions.ts%22%2C%5B%22%24%24ACTION_2%22%2C%22signIn%22%2C%22%24%24ACTION_3%22%2C%22logoutAccount%22%2C%22getLoggedInUser%22%2C%22createLinkToken%22%2C%22createBankAccount%22%2C%22%24%24ACTION_0%22%2C%22signUp%22%2C%22exchangePublicToken%22%2C%22%24%24ACTION_5%22%2C%22%24%24ACTION_1%22%2C%22%24%24ACTION_4%22%5D%5D%2C%5B%22%2FUsers%2Fdiem%2FDesktop%2FCoding%20Projects%2FBanking-App%2Flib%2Fappwrite.js%22%2C%5B%22createSessionClient%22%2C%22createAdminClient%22%5D%5D%2C%5B%22%2FUsers%2Fdiem%2FDesktop%2FCoding%20Projects%2FBanking-App%2Flib%2Factions%2Fdwolla.actions.ts%22%2C%5B%22addFundingSource%22%2C%22createFundingSource%22%2C%22%24%24ACTION_1%22%2C%22%24%24ACTION_3%22%2C%22%24%24ACTION_4%22%2C%22%24%24ACTION_2%22%2C%22createDwollaCustomer%22%2C%22%24%24ACTION_0%22%2C%22createOnDemandAuthorization%22%2C%22createTransfer%22%5D%5D%5D&__client_imported__=!"
+      },
+      "layer": {
         "app/(auth)/sign-up/page": "rsc"
       }
     }
   },
   "edge": {},
-  "encryptionKey": "f75rM2UG3mF5gfqOW3E66CWRebhrfEnhHrDJY4nIMac="
+  "encryptionKey": "fIs3nPZ4SWPiXHd+fws8o9r90Dq0A6aRWLT2hos+GBc="
 }
