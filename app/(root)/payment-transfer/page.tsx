@@ -6,6 +6,21 @@ import React from 'react'
 
 const Transfer = async () => {
   const loggedIn = await getLoggedInUser();
+
+ // Check if the user is logged in
+ if (!loggedIn || !loggedIn.$id) {
+  return (
+    <section className='flex'>
+      <div className='my-banks'>
+        <HeaderBox 
+          title="My Bank Accounts"
+          subtext="Please log in to view your accounts."
+        />
+      </div>
+    </section>
+  );
+}
+
   const accounts = await getAccounts({ 
     userId: loggedIn.$id 
   })
