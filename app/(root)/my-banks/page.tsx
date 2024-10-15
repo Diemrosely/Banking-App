@@ -6,6 +6,21 @@ import React from 'react'
 
 const MyBanks = async () => {
   const loggedIn = await getLoggedInUser();
+
+  // Check if the user is logged in
+  if (!loggedIn || !loggedIn.$id) {
+    return (
+      <section className='flex'>
+        <div className='my-banks'>
+          <HeaderBox 
+            title="My Bank Accounts"
+            subtext="Please log in to view your accounts."
+          />
+        </div>
+      </section>
+    );
+  }
+
   const accounts = await getAccounts({ 
     userId: loggedIn.$id 
   })
@@ -23,7 +38,7 @@ const MyBanks = async () => {
           <div className='flex flex-wrap gap-6'>
             {accounts && accounts.data.map((a: Account) => (
               <BankCard 
-                key={accounts.id}
+                key={a.id}
                 account={a}
                 userName={loggedIn?.firstName}
               />
