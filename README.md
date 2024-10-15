@@ -24,9 +24,9 @@
 💲 Responsiveness: Ensures the application adapts seamlessly to various screen sizes and devices, providing a consistent user experience across desktop, tablet, and mobile platforms.
 
 
-## Environment Variables
+## Set Up Environment Variables
 
-To run this project, you will need to add the following environment variables to your .env file
+Create a new file named `.env` in the root of your project and add the following content:
 
 ```env
 #NEXT
