@@ -54,10 +54,16 @@ const PaymentTransferForm = ({ accounts }: PaymentTransferFormProps) => {
 
     try {
       const receiverAccountId = decryptId(data.shareableId);
+      console.log('Receiver Account Id:', receiverAccountId);
       const receiverBank = await getBankByAccountId({
         accountId: receiverAccountId,
       });
+
+      
       const senderBank = await getBank({ documentId: data.senderBank });
+
+      // console.log('Sender Bank:', senderBank);
+      // console.log('Receiver Bank:', receiverBank);
 
       const transferParams = {
         sourceFundingSourceUrl: senderBank.fundingSourceUrl,
