@@ -23,6 +23,29 @@
 
 💲 Responsiveness: Ensures the application adapts seamlessly to various screen sizes and devices, providing a consistent user experience across desktop, tablet, and mobile platforms.
 
+💲 Vercel:
+A cloud platform for static sites and serverless functions, optimized for deploying Next.js applications. It offers fast global deployment and easy scalability, making it ideal for modern web projects.
+
+## Technologies
+⚙️ Next.js:
+A React framework for building optimized web applications with features like server-side rendering, static site generation, and API routes, enhancing performance and scalability.
+
+⚙️ React.js:
+A JavaScript library for building user interfaces, especially single-page applications, by creating reusable UI components, making it efficient for developing dynamic, interactive web apps. 
+
+⚙️ Appwrite: An open-source backend-as-a-service that provides ready-to-use APIs for handling authentication, databases, file storage, and other backend services, making it easier to build and manage apps.
+
+⚙️ Plaid:
+A financial technology platform that securely connects apps to users' bank accounts, enabling functionality like payments, account verification, and transaction tracking.
+
+⚙️ Dwolla:
+A payment platform that allows businesses to send and receive funds via the ACH (Automated Clearing House) network in the United States, enabling seamless bank transfers and payments.
+
+⚙️ ShadCN:
+A collection of pre-built, accessible UI components built with Tailwind CSS and Radix UI for React, making it easy to design modern, responsive interfaces quickly.
+
+⚙️ Tailwind CSS:
+A utility-first CSS framework that allows developers to build responsive and customizable designs quickly by using predefined classes directly in HTML.
 
 ## Set Up Environment Variables
 
