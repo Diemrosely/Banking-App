@@ -35,13 +35,13 @@ const MobileNav = ({ user }: MobileNavProps) => {
                         href="/"
                         className='mb-12 cursor-pointer flex items-center gap-1 px-4'>
                         <Image
-                            src="/icons/logo.svg"
+                            src="/icons/stash.svg"
                             width={34}
                             height={34}
-                            alt="Horizon logo"
+                            alt="Stack logo"
                         />
                         <h1 className='text-26 font-ibm-plex-serif font-bold text-black-1'>
-                            Horizon
+                            Stacks.
                         </h1>
                     </Link>
 

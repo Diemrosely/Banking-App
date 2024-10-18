@@ -50,8 +50,13 @@ import {
             const isCredit = t.type === 'credit';
   
             return (
-              <TableRow key={t.id} className={`${isDebit || amount[0] === '-' ? 'bg-[#FFFBFA]' : 'bg-[#F6FEF9]'} !over:bg-none !border-b-DEFAULT`}>
-                <TableCell className="max-w-[250px] pl-2 pr-10">
+              <TableRow key={t.id} className={`${isDebit || amount[0] === '-' ? 'bg-[#22333b] bg-opacity-50' : 'bg-[#f8f7ff] bg-opacity-80'} !over:bg-none !border-b-DEFAULT`}>
+              {/* //  <TableRow key={t.id} className={`${isDebit || amount[0] === '-' ? 'bg-[rgba(108, 88, 76, 0.5)]' : 'bg-[rgba(221, 184, 146, 0.3)]'} !over:bg-none !border-b-DEFAULT`}>
+              // <TableRow
+              //   key={t.id}
+              //   className={`${isDebit || amount[0] === '-' ? 'bg-[rgba(237, 224, 212, 0.95)]' : 'bg-[rgba(246, 254, 249, 0.95)]'} !over:bg-none !border-b-DEFAULT`}
+              // > */}
+                <TableCell className="max-w-[250px] pl-2 pr-10 rounded-l-lg">
                   <div className="flex items-center gap-3">
                     <h1 className="text-14 truncate font-semibold text-[#344054]">
                       {removeSpecialCharacters(t.name)}
@@ -79,7 +84,7 @@ import {
                  {t.paymentChannel}
                 </TableCell>
   
-                <TableCell className="pl-2 pr-10 max-md:hidden">
+                <TableCell className="pl-2 pr-10 max-md:hidden rounded-r-lg">
                  <CategoryBadge category={t.category} /> 
                 </TableCell>
               </TableRow>

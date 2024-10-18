@@ -87,13 +87,13 @@ const AuthForm = ({ type }: { type: string }) => {
                     href="/"
                     className='cursor-pointer flex items-center gap-1'>
                     <Image
-                        src="/icons/logo.svg"
+                        src="/icons/stash.svg"
                         width={34}
                         height={34}
-                        alt="Horizon logo"
+                        alt="Stack Logo"
                     />
                     <h1 className='text-26 font-ibm-plex-serif font-bold text-black-1'>
-                        Horizon
+                        Stack.
                     </h1>
                 </Link>
 

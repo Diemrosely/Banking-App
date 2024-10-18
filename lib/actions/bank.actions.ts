@@ -132,6 +132,7 @@ export const getInstitution = async ({
 export const getTransactions = async ({
   accessToken,
 }: getTransactionsProps) => {
+  let cursor = undefined;
   let hasMore = true;
   let transactions: any = [];
   try {
@@ -139,6 +140,7 @@ export const getTransactions = async ({
     while (hasMore) {
       const response = await plaidClient.transactionsSync({
         access_token: accessToken,
+        cursor
       });
   
       const data = response.data;

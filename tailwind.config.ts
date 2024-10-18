@@ -23,7 +23,7 @@ const config = {
         fill: {
           1: "rgba(255, 255, 255, 0.10)",
         },
-        bankGradient: "#0179FE",
+        bankGreen: "#659c67",
         indigo: {
           500: "#6172F3",
           700: "#3538CD",
@@ -47,7 +47,15 @@ const config = {
         blue: {
           25: "#F5FAFF",
           100: "#D1E9FF",
-          500: "#2E90FA",
+          500: "2E90FA#",
+          600: "#1570EF",
+          700: "#175CD3",
+          900: "#194185",
+        },
+        green: {
+          25: "#F5FAFF",
+          100: "#D1E9FF",
+          500: "#0E5F44",
           600: "#1570EF",
           700: "#175CD3",
           900: "#194185",
@@ -70,10 +78,13 @@ const config = {
         },
       },
       backgroundImage: {
-        "bank-gradient": "linear-gradient(90deg, #0179FE 0%, #4893FF 100%)",
-        "gradient-mesh": "url('/icons/gradient-mesh.svg')",
+        "bank-gradient": "linear-gradient(90deg, #0f3443 0%, #A5D6A7 100%)",
+        "gradient-mesh": "url('/assets/monstera.jpeg')",
         "bank-green-gradient":
-          "linear-gradient(90deg, #01797A 0%, #489399 100%)",
+        "linear-gradient(90deg, #01797A 0%, #489399 100%)",
+        'total-balance-gradient': 'radial-gradient(circle at 10% 20%, rgb(69, 86, 102) 0%, rgb(34, 34, 34) 90%)',
+        'bank-text-gradient': 'linear-gradient(90deg, #659c67 0%, #489399 100%)',
+    
       },
       boxShadow: {
         form: "0px 1px 2px 0px rgba(16, 24, 40, 0.05)",
@@ -86,6 +97,10 @@ const config = {
       fontFamily: {
         inter: "var(--font-inter)",
         "ibm-plex-serif": "var(--font-ibm-plex-serif)",
+      },
+      backgroundSize: {
+        '150': '150%',
+        '200': '200%',
       },
       keyframes: {
         "accordion-down": {
