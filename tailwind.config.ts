@@ -79,7 +79,7 @@ const config = {
       },
       backgroundImage: {
         "bank-gradient": "linear-gradient(90deg, #0f3443 0%, #A5D6A7 100%)",
-        "gradient-mesh": "url('/assets/monstera.jpeg')",
+        "gradient-mesh": "url('/assets/coffee.jpg')",
         "bank-green-gradient":
         "linear-gradient(90deg, #01797A 0%, #489399 100%)",
         'total-balance-gradient': 'radial-gradient(circle at 10% 20%, rgb(69, 86, 102) 0%, rgb(34, 34, 34) 90%)',

@@ -5,6 +5,8 @@
 
 <small>This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).</small>
 
+![](./public/assets/home.png)
+
 ## Features
 
 💲 Authentication: An ultra-secure SSR authentication with proper validations and authorization

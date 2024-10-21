@@ -8,16 +8,21 @@ export default function RootLayout({
     return (
       <main className="flex min-h-screen w-full justify-between font-inter">
           {children}
-          <div className="auth-asset">
-            <div>
+          <div className="auth-asset flex justify-start items-start">
+            <div className="ml-0">
               <Image 
-                src='/icons/auth-image.svg'
+                src='/assets/home.png'
                 alt="Auth Image"
-                width={500}
+                width={800}
                 height={500}
+                className="flex justify-start items-start rounded-lg"
+                // style={{
+                //   'borderRadius':'15px'
+                // }}
               />
             </div>
           </div>
       </main>
     );
   }
+

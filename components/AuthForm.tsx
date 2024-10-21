@@ -88,17 +88,17 @@ const AuthForm = ({ type }: { type: string }) => {
                     className='cursor-pointer flex items-center gap-1'>
                     <Image
                         src="/icons/stash.svg"
-                        width={34}
-                        height={34}
+                        width={130}
+                        height={130}
                         alt="Stack Logo"
                     />
-                    <h1 className='text-26 font-ibm-plex-serif font-bold text-black-1'>
-                        Stack.
-                    </h1>
+                    {/* <h1 className='text-26 font-ibm-plex-serif font-bold text-black-1'>
+                        Stacks.
+                    </h1> */}
                 </Link>
 
                 <div className='flex flex-col gap-1 md:gap-3'>
-                    <h1 className='text-24 lg:text-36 font-semibold text-gray-900'>
+                    <h1 className='text-24 lg:text-36 font-semibold text-gray-900 mt-[-40px]'>
                         {user
                         ? 'Link Account'
                         : type === 'sign-in'

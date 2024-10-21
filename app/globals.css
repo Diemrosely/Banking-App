@@ -163,7 +163,7 @@
   }
 
   .profile-banner {
-    @apply h-[120px] w-full bg-gradient-mesh bg-cover bg-center bg-no-repeat;
+    @apply h-[170px] w-full bg-gradient-mesh bg-cover bg-center bg-no-repeat;
     /* @apply  h-[300px] w-full bg-gradient-mesh bg-cover bg-center bg-no-repeat; */
   }
 
@@ -276,7 +276,7 @@
 
   /* Auth */
   .auth-asset {
-    @apply flex h-screen w-full sticky top-0 items-center justify-end bg-sky-1 max-lg:hidden;
+    @apply flex h-screen w-full sticky top-0 items-center justify-end bg-bank-gradient max-lg:hidden;
   }
 
   /* Auth Form */
