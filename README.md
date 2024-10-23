@@ -1,7 +1,6 @@
 <p align="center">
-  <img src="./public/assets/wad.png" alt="cash" width="200" height="200">
+  <img src="./public/assets/file.png" alt="cash" width="200" height="200" >
 </p>
-
 
 <strong>[Stacks](https://banking-app-drab-beta.vercel.app/) is a financial SaaS platform built with Next.js and Appwrite, designed to streamline personal finance management. Integrated with Plaid and Dwolla, Stacks enables the connection of multiple bank accounts, provides real-time transaction data, and facilitates seamless bank transfers.</strong>
 
