@@ -1,9 +1,9 @@
 <div style="display: flex; align-items: center; justify-content: center">
-  <img src="./public/assets/wad.png" alt="cash" width="100" height="100" style="margin-right: 0px;">
+  <img src="./public/assets/wad.png" alt="cash" width="200" height="200" style="margin-right: 0px;">
   <!-- <h3>Stacks</h3> -->
 </div>
 
-[Stacks](https://banking-app-drab-beta.vercel.app/) is a financial SaaS platform built with Next.js and Appwrite, designed to streamline personal finance management. Integrated with Plaid and Dwolla, Stacks enables the connection of multiple bank accounts, provides real-time transaction data, and facilitates seamless bank transfers. 
+<strong>[Stacks](https://banking-app-drab-beta.vercel.app/) is a financial SaaS platform built with Next.js and Appwrite, designed to streamline personal finance management. Integrated with Plaid and Dwolla, Stacks enables the connection of multiple bank accounts, provides real-time transaction data, and facilitates seamless bank transfers.</strong>
 
 <small>This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).</small>
 
